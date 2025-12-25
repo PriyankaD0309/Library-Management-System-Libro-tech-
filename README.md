@@ -10,8 +10,26 @@ Frontend: React.js
 Backend: Node.js, Express.js
 Database: MySQL (phpMyAdmin)
 Hosting: XAMPP Server (for local development)
+
 📂 Project Structure
-libro-tech/ │── backend/ # Backend Server (Node.js, Express) │ ├── server.js # Main server file │ ├── db.js # Database connection file │ ├── routes/ # API routes │── frontend/ # React Frontend │ ├── src/ │ │ ├── components/ # UI Components (Form, Search) │ │ ├── pages/ # Pages (AddBook, SearchBook) │ │ ├── App.js # Main React file │── database/ # MySQL Database Schema │ ├── libro-tech.sql # Database Schema │── README.md # Project Documentation
+libro-tech/
+│
+├── backend/                  # Backend Server (Node.js, Express)
+│   ├── server.js              # Main server file
+│   ├── db.js                  # Database connection file
+│   └── routes/                # API routes
+│
+├── frontend/                 # React Frontend
+│   └── src/
+│       ├── components/        # UI Components (Form, Search)
+│       ├── pages/             # Pages (AddBook, SearchBook)
+│       └── App.js              # Main React file
+│
+├── database/                 # MySQL Database Schema
+│   └── libro-tech.sql         # Database Schema
+│
+└── README.md                  # Project Documentation
+
 
 🔧 Installation Guide
 1️⃣ Clone the Repository
