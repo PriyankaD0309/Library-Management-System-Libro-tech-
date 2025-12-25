@@ -1,0 +1,6 @@
+/vendor/
+/node_modules/
+/.env
+*.log
+/venv/
+/libro_env/
